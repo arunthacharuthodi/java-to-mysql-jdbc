@@ -1,18 +1,32 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+#### STEP 1:
+```
+sudo apt install git -y
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+#### STEP 2:
+open terminal in a new folder ``projects``
+ ```
+ git clone https://github.com/arunthacharuthodi/java-to-mysql-jdbc.git
+ ```
+ 
+#### STEP 3:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+open the code in vs code or Eclipse
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+[install vscoode]()
+[install eclipse]()
 
-## Dependency Management
+```open folder in Eclipse ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+or open terminal and enter
+``` 
+code .
+```
+
+ 
+
+
