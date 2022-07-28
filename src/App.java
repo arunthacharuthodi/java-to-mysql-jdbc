@@ -18,9 +18,9 @@ public class App {
         
         //ResultSet rs = stmt.executeQuery("select * from test");
         //process result set
-        while (rs.next()) {
-            System.out.println(rs.getString(1) + " " + rs.getString(2));
-        }
+//         while (rs.next()) {
+//             System.out.println(rs.getString(1) + " " + rs.getString(2));
+//         }
         //close connection
         conn.close();
         
