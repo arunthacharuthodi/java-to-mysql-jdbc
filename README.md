@@ -125,3 +125,30 @@ Overall, JDBC drivers play a crucial role in enabling Java applications to inter
 
 
 
+```
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        // Connect to MySQL database
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test?allowPublicKeyRetrieval=true&useSSL=false", "eelab", "Eelab@123");
+        
+        // Create statement
+        Statement stmt = conn.createStatement();
+        
+        // Execute query
+        ResultSet rs = stmt.executeQuery("insert into to test(name , rollnumber) values('myname', 'myname@123');");
+        
+        // Process result set
+//         while (rs.next()) {
+//             System.out.println(rs.getString(1) + " " + rs.getString(2));
+//         }
+        
+        // Close connection
+        conn.close();    
+    }
+}
+```
